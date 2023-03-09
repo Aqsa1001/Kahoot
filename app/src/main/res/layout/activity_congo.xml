@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CongoActivity"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#D8D6D6"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Successfully Submitted"
+            android:textColor="@color/mypurple"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_height="260dp"
+        app:srcCompat="@drawable/well_removebg_preview" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Marks:  "
+            android:textColor="@color/mypurple"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:layout_marginLeft="100dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/totalMarksText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Marks:"
+            android:textColor="@color/mypurple"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gain Marks:   "
+        android:textColor="@color/mypurple"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="casual"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/gainMarksText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gain Marks:"
+        android:textColor="@color/mypurple"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="20dp"
+        />
+</LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/okBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/mypurple"
+        android:text="Ok"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+</LinearLayout>

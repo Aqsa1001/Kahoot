@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mypurple"
+    tools:context=".homeFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kahoo22_removebg_preview" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kahoot! is the perfect match to take your game shows to the big leagues! From birthdays, bachelor parties and weddings to your favorite festivities!
+Start right away with the preps and don’t let your next get-together catch you off guard!"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:fontFamily="casual"
+        android:paddingTop="320dp"
+        android:textAlignment="center">
+    </TextView>
+    <Button
+        android:id="@+id/letsgo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Go"
+android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:textColor="#FF52076b"
+        android:backgroundTint="@color/white">
+
+    </Button>
+</FrameLayout>

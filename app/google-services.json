@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "190471990667",
+    "project_id": "kahoot-92aef",
+    "storage_bucket": "kahoot-92aef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190471990667:android:1ceb70f81ebc4374f7138e",
+        "android_client_info": {
+          "package_name": "com.example.kahoot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190471990667-k5enroe4joha64ikmah8a1hm4a23epiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kahoot",
+            "certificate_hash": "75846aacce4b9a13b8c27befe9270291cd366bb6"
+          }
+        },
+        {
+          "client_id": "190471990667-4qus4cedetp5g0g744shg88kqkp20uv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTTLRN8CvzMmf60RWRCuhZahh7hXw-G2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190471990667-4qus4cedetp5g0g744shg88kqkp20uv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
